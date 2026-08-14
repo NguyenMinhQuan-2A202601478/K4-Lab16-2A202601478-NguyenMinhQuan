@@ -1,6 +1,6 @@
 # Memo Teardown — Adobe Photoshop
 
-**Nhóm:** K4-Lab16 · **Thành viên:** Nguyễn Minh Quân (Thành viên 1) · Trần Thị Kiều Trang (Thành viên 2) · *(bổ sung 3 thành viên còn lại)*
+**Nhóm:** K4-Lab16 · **Thành viên:** Nguyễn Minh Quân (Thành viên 1) · Trần Thị Kiều Trang (Thành viên 2) · Vũ Đình Huy (thành viên 3)
 
 **Vì sao chọn sản phẩm này:** Adobe Photoshop là sản phẩm tiêu biểu cho cuộc chuyển mình từ công cụ chỉnh sửa đồ họa chuyên nghiệp truyền thống sang tích hợp AI/ML toàn diện (từ Adobe Sensei đến Generative Fill với Firefly). Phân tích Photoshop giúp làm rõ cách một ứng dụng hàng đầu nhúng AI trực tiếp vào workflow sẵn có mà không làm đứt gãy thói quen người dùng.
 
@@ -14,6 +14,7 @@
 | 23/01/2018 *(ứng viên TV1)* | Adobe tích hợp [Select Subject (Adobe Sensei) vào Photoshop CC 2018 (v19.1)](https://en.wikipedia.org/wiki/Adobe_Photoshop#CC_2018_(version_19)), cho phép tách chủ thể tự động chỉ với 1-click. | Tách chủ thể người hoặc sản phẩm ra khỏi background phức tạp yêu cầu dùng Pen Tool tỉ mỉ từng pixel, tốn 15–30 phút cho mỗi bức ảnh. | **Nguyên lý x10 bằng AI:** nén thời gian thao tác từ hàng chục phút xuống 1 cú click (giảm 90% thời gian) nhờ mô hình Machine Learning Adobe Sensei. |
 | 20/10/2020 *(ứng viên TV2)* | Adobe đưa [Neural Filters vào Photoshop 22.0](https://blog.adobe.com/en/publish/2020/10/05/photoshop-now-the-worlds-most-advanced-ai-application-for-creatives), biến Skin Smoothing, Smart Portrait, Colorize… thành workspace AI có output tiếp tục chỉnh bằng layer/mask. | Nhu cầu sản xuất nội dung vẫn tăng khi đội sáng tạo phải làm việc từ xa; Adobe nhấn mạnh nhu cầu tăng hiệu suất tại [Adobe MAX 2020](https://blog.adobe.com/en/publish/2020/10/08/maxoverview). Hợp tác Adobe–NVIDIA và tăng tốc GPU giúp Neural Filters đủ nhanh cho workflow thương mại. | **x10 bằng AI trong workflow có sẵn:** giảm quy trình nhiều bước xuống vài giây nhưng không lấy mất quyền tinh chỉnh của chuyên gia. |
 | 26/10/2021 *(ứng viên TV2)* | Adobe thêm [Landscape Mixer, Color Transfer và Harmonization](https://blog.adobe.com/en/publish/2021/10/26/photoshop-ships-major-updates-across-desktop-ipad-apps-extends-light-editing-collaboration-features-web-beta), đồng thời cải thiện filter cũ từ feedback. | [DALL·E xuất hiện đầu 2021](https://openai.com/index/dall-e/), đẩy kỳ vọng từ AI chỉnh ảnh sang AI tạo nội dung. Adobe vẫn đóng gói AI thành các tác vụ có phạm vi rõ, tạo first pass rồi cho user hoàn thiện trong Photoshop. Đây là suy luận từ hai nguồn. | **Vòng lặp học có human feedback:** filter Beta thu phản hồi theo creative intent, giúp Adobe học định nghĩa “tốt” trong workflow sáng tạo. |
+| 09/2023 *(Ứng viên TV3) | Generative Fill ra mắt chính thức trong Photoshop (v25.0), dựa trên model Firefly — sinh nội dung ảnh mới từ mô tả văn bản. Nguồn: [Adobe — trang sản phẩm Generative Fill](https://www.adobe.com/products/photoshop/generative-fill.html) | ChatGPT vừa gây sốt cuối 2022, cả ngành sáng tạo đua tích hợp generative AI; Midjourney/DALL-E đã chứng minh nhu cầu "gõ chữ ra ảnh" | Chuyển từ "tự động hoá thao tác có sẵn" (Content-Aware) sang "tạo nội dung hoàn toàn mới từ ngôn ngữ tự nhiên" → hạ rào cản kỹ năng, mở rộng Photoshop sang tệp không chuyên |
 
 *(6–8 hàng, mỗi hàng kèm link nguồn gốc)*
 
@@ -41,9 +42,9 @@
 - **Dự đoán:** Adobe sẽ tích hợp công cụ Multi-modal Real-time Canvas AI Control (điều khiển AI thời gian thực kết hợp nét cọ phác thảo + prompt ngôn ngữ tự nhiên) trực tiếp trên giao diện Canvas của Photoshop trong 6–12 tháng tới.
 - **Lập luận:** Dẫn ngược từ mốc Select Subject (2018) và Generative Fill (2023) ở §1, cùng nhu cầu kiểm soát pixel-perfect của Early Adopters ở §2. Sau khi tự động hóa việc chọn vùng và tạo ảnh tĩnh, bước tiếp theo để giữ chân chuyên gia là tương tác điều chỉnh AI theo thời gian thực (real-time feedback loop).
 
-**Dự đoán 3** *(loại: …)*
-- **Dự đoán:** …
-- **Lập luận:** …
+**Dự đoán 3** *(Ứng viên thành viên 3 - loại: đe dọa Big Tech)*
+- **Dự đoán:** Trong 6–12 tháng tới, Photoshop sẽ tiếp tục mở thêm nhiều model AI bên thứ ba (Google Gemini/Nano Banana Pro, Black Forest Labs FLUX, và các lab khác) ngay trong Generative Fill/Firefly, thay vì chỉ dùng model Firefly độc quyền của Adobe — biến Photoshop thành lớp "giao diện/aggregator" AI thay vì tự đối đầu chạy đua model với Big Tech.
+- **Lập luận:** Mốc gần nhất ở §1 cho thấy Adobe đã bắt đầu nhúng Gemini 3/Nano Banana Pro và FLUX.2 pro vào Generative Fill — tức chọn "hợp tác" thay vì "cạnh tranh trực diện" với các lab lớn. Điều này hợp lý vì lợi thế cạnh tranh của Adobe không nằm ở việc tự train model ảnh tốt nhất (thứ Google/OpenAI đang thắng), mà nằm ở switching cost cao của tệp user hiện tại — định dạng PSD chuẩn ngành, thói quen thao tác nhiều năm, tích hợp Creative Cloud (§2). Vì vậy Big Tech khó "cướp" trực tiếp user của Adobe dù có model AI tốt hơn, nên Adobe tận dụng bằng cách nhúng chính các model đó vào workflow độc quyền của mình. *(Cần đối chiếu lại với nội dung §2 khi nhóm điền xong phần switching cost.)*
 
 **§4. AI Log**
 
